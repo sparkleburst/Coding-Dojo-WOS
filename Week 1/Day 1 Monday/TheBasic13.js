@@ -120,15 +120,23 @@ function print_average_of_list(lst) {
 
     let sum = 0;
     // Find sum of all elements in the list
-    for (let i = 0; i < lst.length; i++)
+    for (let i = 0; i < lst.length; i++){
         sum += lst[i];
+    }
+
+    // Calculate avaerage
+    let average = sum / lst.length;
+    
+    // Print the average
+    console.log("The average of the list elements is:", average);
+
 }
 
-// Calculate avaerage
-let average = sum / lst.length;
 
-// Print the average
-console.log("The average of the list elements is:", average);
+
+// Test the function
+let testList = [1, 2, 3, 4, 5];
+print_average_of_list(testList); // Output: The average of the list elements is: 3
 
 /*
 7
@@ -137,8 +145,15 @@ Create a list with all the odd integers between 1 and 255 (inclusive).
 */
 
 function return_odds_list_1_to_255(){
-
+    let odds = [];
+    for (let i = 1; i <= 255; i += 2) {
+        odds.push(i);
+    }
+    return odds;
 }
+
+// Call the function
+console.log(return_odds_list_1_to_255());
 
 /*
 8
@@ -147,8 +162,16 @@ Square each value in a given list, returning that same list with changed values.
 */
 
 function square_list_vals(lst) {
-
+    for (let i = 0; i < lst.length; i++) {
+        lst[i] = lst[i] * lst[i];
+        // lst[i] = Math.pow(lst[i],2);
+    }
+    return lst;
 }
+
+// Call the function
+let testList1 = [1, 2, 3, 4, 5];
+console.log(square_list_vals(testList1)); // Output: [1, 4, 9, 16, 25]
 
 /*
 9
@@ -157,8 +180,19 @@ Given a list and a value, count and print the number of list values greater than
 */
 
 function greater_than_val(lst, val) {
-
+    let count = 0;
+    for (let i = 0; i < lst.length; i++) {
+        if (lst[i] > val) {
+            count++;
+        }
+    }
+    console.log(count);
 }
+
+// Call the function
+let testList2 = [1, 2, 3, 4, 5];
+let value = 3;
+greater_than_val(testList2, value); // Output: 2
 
 /*
 10
@@ -167,8 +201,17 @@ Return the given list, after setting any negative values to zero.
 */
 
 function zero_out_list_negatives(lst) {
-
+    for (let i = 0; i < lst.length; i++) {
+        if (lst[i] < 0) {
+            lst[i] = 0;
+        }
+    }
+    return lst;
 }
+
+// Call the function
+let testList3 = [1, -2, 3, -4, 5];
+console.log(zero_out_list_negatives(testList3)); // Output: [1, 0, 3, 0, 5]
 
 /*
 11
@@ -177,8 +220,39 @@ Given a list, print the max, min and average values for that list.
 */
 
 function max_min_average(lst) {
+    if (lst.length === 0) {
+        console.log("List is empty");
+        return;
+    }
 
+    let max = lst[0];
+    let min = lst[0];
+    let sum = 0;
+
+    for (let i = 0; i < lst.length; i++) {
+        if (lst[i] > max) {
+            max = lst[i];
+        }
+        if (lst[i] < min) {
+            min = lst[i];
+        }
+        sum += lst[i];
+    }
+
+    let average = sum / lst.length;
+
+    console.log("Max:", max);
+    console.log("Min:", min);
+    console.log("Average:", average);
 }
+
+// Call the function
+let testList4 = [1, 2, 3, 4, 5];
+max_min_average(testList4); 
+// Output: 
+// Max: 5
+// Min: 1
+// Average: 3
 
 /*
 12
@@ -187,8 +261,19 @@ Given a list, move all values forward (to the left) by one index, dropping the f
 */
 
 function shift_list_vals_left(lst) {
-
+    for (let i = 0; i < lst.length - 1; i++) {
+        lst[i] = lst[i + 1];
+    }
+    if (lst.length > 0) {
+        lst[lst.length - 1] = 0;
+    }
+    return lst;
+        
 }
+
+// Call the function
+let testList5 = [1, 2, 3, 4, 5];
+console.log(shift_list_vals_left(testList5)); // Output: [2, 3, 4, 5, 0]
 
 /*
 13
@@ -197,5 +282,14 @@ Given a list of integers or floats, replace any negative values with the string 
 */
 
 function swap_string_for_negatives(lst) {
-
+    for (let i = 0; i < lst.length; i++) {
+        if (lst[i] < 0) {
+            lst[i] = 'Dojo';
+        }
+    }
+    return lst;
 }
+
+// Call the function
+let testList6 = [1, -2, 3, -4, 5];
+console.log(swap_string_for_negatives(testList6)); // Output: [1, 'Dojo', 3, 'Dojo', 5]
