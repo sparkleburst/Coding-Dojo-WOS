@@ -126,13 +126,11 @@ function print_average_of_list(lst) {
 
     // Calculate avaerage
     let average = sum / lst.length;
-    
+
     // Print the average
     console.log("The average of the list elements is:", average);
 
-}
-
-
+}   
 
 // Test the function
 let testList = [1, 2, 3, 4, 5];
