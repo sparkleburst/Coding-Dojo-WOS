@@ -1,0 +1,60 @@
+/*
+Arrow Functions
+
+ES6 EcmaScript 2015
+let and const became a thing
+we no longer write Javascript the same way
+*/
+
+// Function declaration
+function greet() {
+    console.log('Hello!');
+}
+
+greet();
+
+/* in Javascript functions are "first-class citizens."
+That means that we can do anything with functions that 
+we can do with other objects
+
+*/
+
+// Function expression
+
+const greetExpression = function () {
+    console.log("Hello!");
+}
+
+greetExpression();
+// could do this
+// const greetExpression2 = greet;
+
+const greetArrow = () => {
+    console.log("Hello!");
+};
+
+greetArrow();
+
+// omit curly braces if function body is only one line
+const greetOneLine = () => console.log("Hello!");
+
+greetOneLine();
+
+// parameters and arrow functions
+const greetByName = (name) => console.log(`Hello, ${name}!`);
+
+greetByName('Mya');
+
+// If you onle have one parameter then you can omit the parenthesis
+
+// for prettier to ingnore a line do
+// prettier-ignore
+const greetByName2 = name => console.log(`Hello, ${name}!`);
+
+greetByName2('Lanasha');
+
+// if you have more than one paramenter parenthesis are required
+const greetTwoParams = (name, timeOfDay) => console.log(`Good ${timeOfDay}, ${name}`);
+
+greetTwoParams('Max', 'morning');
+

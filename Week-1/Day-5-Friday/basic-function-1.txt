@@ -1,0 +1,278 @@
+Max Gilhespy
+
+I got 15 / 15
+
+1.
+function a(){
+    return 35;
+}
+console.log(a())
+
+My prediction output will be:
+35 - because the function is called in a console.log and it returns 35
+
+Actual output is: 
+35
+
+2.
+function a(){
+    return 4;
+}
+console.log(a()+a());
+
+My prediction output will be:
+8 - because the function is called twice in a console.log adding them together with 4 being returned each time. So 4 is added to 4.
+
+Actual output is: 
+8
+
+3.
+function a(b){
+    return b;
+}
+console.log(a(2)+a(4));
+
+My prediction output will be:
+6 - The function is called twice in a console.log adding them together, once with an argument of 2 then of 4. So 2 is added to 6.
+
+Actual output is: 
+6
+
+4.
+function a(b){
+    console.log(b);
+    return b*3;
+}
+console.log(a(3));
+
+My prediction output will be:
+3 - in the function console.log happens first 
+9 - then the argument of 3 is multiplied by 3
+
+Actual output is: 
+3
+9
+
+5.
+function a(b){
+   return b*4;
+   console.log(b);
+}
+console.log(a(10));
+
+My prediction output will be:
+40 - console.log(a(10)) prints the return value of 10 * 4. As it is a return 
+     the next console log is never acknowledged.
+
+Actual output is: 
+40
+
+6.
+function a(b){
+    if(b<10) {
+        return 2;
+    }
+    else     {
+        return 4;
+    }
+    console.log(b);
+}
+console.log(a(15));
+
+My prediction output will be:
+4 - the funcion is called in a console.log so it will print the return value. 15 is not less than 10 so it returns 4. The next console.log is ignored because the function has already returned.
+
+Actual output is: 
+4
+
+7.
+function a(b,c){
+    return b*c;
+}
+console.log(10,3);
+console.log( a(3,10) );
+
+My prediction output will be:
+10 3 - because javascript recognizes numbers and will print them
+30 - because the return value is the arguments 3 and 10 multiplied
+
+Actual output is: 
+10 3
+30
+
+8. function a(b){
+    for(var i=0; i<10; i++){
+        console.log(i);
+    }
+    return i;
+}
+console.log(3);
+console.log(4);
+
+My prediction output will be:
+3 - because javascript recognizes numbers and will print them
+4
+
+Actual output is: 
+3
+4
+
+9.
+function a(){
+    for(var i=0; i<10; i++){
+        i = i +2;
+        console.log(i);
+    }
+}
+a();
+
+My prediction output will be:
+2
+5
+8
+11 - because i starts at 0 and has 2 added to it. i is then 2 and is incremented by 1 so i is then 3 and has 2 added to it. i is then 5 and is incremented by 1 so i is then 6 and has 2 added to it. i is then 8 and is incremented by 1 so i is then 9 and has 2 added to it.
+
+Actual output is: 
+2
+5
+8
+11
+
+10.
+function a(b,c){
+    for(var i=b; i<c; i++) {
+       console.log(i);
+   }
+   return b*c;
+}
+a(0,10);
+console.log(a(0,10));
+
+My prediction output will be:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0 - because the loop prints 0 - 9 then the return value is ignored but then once in console.log the loop prints 0 - 9 then the return value is shown to be 0
+
+Actual output is: 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+
+11.
+function a(){
+    for(var i=0; i<10; i++){
+       for(var j=0; j<10; j++){
+           console.log(j);
+       }
+       console.log(i);
+    }
+}
+
+My prediction output will be:
+There will be no output. The function hasn't been called
+
+Actual output is: 
+There was no output
+
+12.
+function a(){
+    for(var i=0; i<10; i++){
+        for(var j=0; j<10; j++){
+            console.log(i,j);
+        }
+        console.log(j,i);
+    }
+}
+
+My prediction output will be:
+There will be no output. The function hasn't been called
+
+Actual output is: 
+There was no output
+
+13. 
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+console.log(z);
+
+My prediction output will be:
+10 - because z = 10 and the cosole.log only has z in it
+
+Actual output is: 
+10
+
+14.
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+a();
+console.log(z);
+
+My prediction output will be:
+15 - the z value in the function overwrites the global z value
+10 - the console.log can only see the global z value which is 10
+
+Actual output is: 
+15
+10
+
+15.
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+    return z;
+}
+z = a();
+console.log(z);
+
+My prediction output will be:
+15 
+15 - z starts at 10 but then becomes the console.log and return value of a().
+     Console.log(z) means that 15 gets printed twice because console.log prints 
+     the return value
+
+Actual output is: 
+15
+15
