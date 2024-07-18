@@ -1,0 +1,176 @@
+/* Max Gilhespy */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* utility classes start */
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* utility classes end */
+
+
+/* button classes start */
+
+.btn {
+    border: 4px solid black;
+    box-shadow: 4px 4px black;  
+    cursor: pointer;  
+}
+
+.login-btn {    
+    background-color: #2b78e4;
+    color: white;
+    padding: 4px 18px;
+    font-size: 20px;
+}
+
+.likes-btn {
+    background-color: #ffd966;
+    padding: 6px 18px;
+    font-size: 16px;
+}
+
+.definition-btn {
+    background-color: #93c47d;
+    padding: 12px 56px;
+    font-size: 24px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* button classes end */
+
+
+/* card classes start */
+
+.card {
+    border: 4px solid black;
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.align-self {
+    align-self: flex-start;
+}
+
+/* card classes end */
+
+/* header classes start */
+
+.header {
+    background-color: #cccccc; 
+    margin-bottom: 2.5rem;
+}
+
+.brand {   
+    padding: 1rem 1.5rem;
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;  
+    font-weight: normal;
+}
+
+.brand input[type=text] {
+    font-size: 18px;
+    border: 4px solid black;
+    width: 448px; 
+    height: 36px;
+    padding-left: 8px; 
+}
+
+/* header classes end*/
+
+/* main content classes start */
+
+.gap {
+    gap: 2rem;
+}
+
+/* main side classes start */
+main {    
+    flex: 2;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;  
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 24px;  
+    font-weight: normal;
+    font-style: italic;
+}
+
+.double-text-style {
+    padding-bottom: 16px;
+}
+
+.firstWord {
+    margin: 0;
+    padding-right: 4px;
+    font-size: 16px; 
+    font-style: normal; 
+}
+
+.secondWord {
+    margin: 0;
+    font-size: 16px; 
+    font-style: italic;    
+}
+
+.definition {
+    padding: 0 96px;
+    font-size: 24px;
+}
+
+/* main side classes end */
+
+/* aside side classes start */
+
+aside {  
+    flex: 1;
+}
+
+h4 {
+    margin: 0;
+    font-size: 30px;  
+    font-weight: normal;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* aside side classes end */
+
+/* main content classes end */

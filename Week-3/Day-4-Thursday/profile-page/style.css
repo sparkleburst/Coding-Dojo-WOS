@@ -1,0 +1,172 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.div-flex {
+  display: flex;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.align {
+  align-items: center;
+}
+
+.section-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap {
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.content {
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+main {
+  flex: 4;
+}
+
+aside {
+  align-self: flex-start;
+  flex: 1;
+}
+
+section {
+  background-color: lemonchiffon;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 2px gray;
+}
+
+article {
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+.name, .header-half, .header-three-quarters {
+  height: 42px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {  
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Make link text color same as surrounding text */
+}
+
+/* .nav-button {
+  align-self: flex-end;
+} */
+
+.thin-border {
+  border: 1px solid black;
+}
+
+.thick-border {
+  border: 4px solid black;
+}
+
+.no-border {
+  border: 0px;
+}
+
+.small-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.large-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.width-control {
+  width: 120px;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.header,
+.body {
+  min-height: 100px;
+}
+
+.header {
+  background-color: rebeccapurple;
+}
+
+.body {
+
+}
+
+.header-half, .header-three-quarters {
+  background-color: blue;
+  color: white;
+}
+
+.header-half, .footer {
+  padding-left: 1rem;
+  min-height: 50px;
+}
+
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location img {
+  width: 12px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.location p {
+  margin: 0;
+  font-size: 24px;
+}
+
+div p{
+  height: 42px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+}
+                   

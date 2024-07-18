@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- the title shown in the tab at the top-->
+  </head>
+
+  <body>
+    <!-- The most important header -->
+    <h1 id="home">My Registration Form</h1>
+
+    <!-- The registration form displayed in a table-->
+    <form>
+      <table>
+        <!-- Removed unnecessary thead and tr's -->
+        <tbody>
+          <tr>
+            <td><label for="first_name">First Name:</label></td>
+            <td><input type="text" id="first_name" name="first_name" /></td>
+          </tr>
+          <tr>
+            <td><label for="last_name">Last Name:</label></td>
+            <td><input type="text" id="last_name" name="last_name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="text" id="password" name="password" /></td>
+          </tr>
+          <tr>
+            <td><label for="pwcomfirm">PW Comfirm</label></td>
+            <td><input type="text" id="pwcomfirm" name="pwcomfirm" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="birthday">Birthday</label></td>
+            <td>
+              <input type="date" id="birthday" name="birthday" />
+              <!-- To add the birthday present emoji -->
+              <span class="icon">🎁</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="gender" value="male" />
+
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="gender" value="female" />
+
+              <label for="other">Other</label>
+              <input type="radio" id="other" name="gender" value="other" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <!-- Added a label here -->
+              <label for="description">A short description about yourself:</label></td>
+          </tr>
+          <tr>
+            <td colspan="2"><textarea name="description"></textarea></td>
+          </tr>
+
+          <tr>
+            <td>
+              <!-- Added a label here -->
+              <label for="favelang">Favorite Language</label></td>
+            <td>
+              <!-- added the attribute id="favelang" to make form more accesible for screen readers-->
+              <select id="favelang" name="favelang">
+                <option value="javascript">Javascript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="csharp">C#</option>
+                <option value="java">Java</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <!-- added colspan="2" here and removed unnecessary tds -->
+            <td colspan="2"><input type="submit" value="Submit" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!-- Max Gilhespy -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Button Clicker</title>
+  </head>
+  <body>
+    <!-- headers begin -->
+    <header class="container header d-flex">
+      <div class="brand d-flex">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search" class="text-muted">
+        <button class="btn login-btn" onclick="changeText(this)">Login</button>
+      </div>
+    </header>
+    <!-- headers end -->
+    <!-- main content begin  -->
+    <div class="container d-flex gap">
+      <main>
+        <div class="card">
+          <div class="card-body d-flex">
+            <div class="ninja d-flex column">
+              <h2>ninja</h2>
+              <h3>noun</h3>
+              <div class="double-text-style d-flex">
+                <h4 class="firstWord">Plural:</h4>
+                <h4 class="secondWord">ninjas</h4>                
+              </div>
+              <button class="btn likes-btn" onclick="alertLikes(this)">13 likes</button>
+            </div>
+            <div class="definition">A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body d-flex">
+            <div class="d-flex column">
+              <h2>ninja</h2>
+              <h3>noun</h3>
+              <div class="double-text-style d-flex">
+                <div class="firstWord">Plural:</div>
+                <div class="secondWord">ninjas</div>                
+              </div>
+              <button class="btn likes-btn" onclick="alertLikes(this)">37 Likes</button>
+            </div>
+            <div class="definition">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</div>
+          </div>
+        </div>
+      </main>
+      <aside class="align-self">
+        <div class="card">
+          <div class="card-body">
+            <h4>Dojonary is </h4>
+            <h4 class="double-text-style">defined by <span>YOU</span></h4>
+            <div class="btn-wrapper">
+              <button class="btn definition-btn" onclick="hide(this)">Add Definition</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <!-- main content end  -->
+    <script src="./script.js"></script>
+  </body>
+</html>

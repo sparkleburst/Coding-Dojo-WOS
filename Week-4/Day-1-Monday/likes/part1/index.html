@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Part1</title>
+  </head>
+  <body>
+    <!-- main content begin -->
+    <div class="container d-flex gap">
+      <main>
+        <div class="card">
+          <div class="card-body">
+            <div class="d-flex">
+              <h2>Some User</h2>
+              <p class="text-to-end">
+                <span id="likesCounter">3</span> like(s)
+                <button class="btn" onclick="addingLikes('likesCounter')">
+                Like
+                </button>
+              </p>
+            </div>
+            <div class="filler">
+              <p>This is some filler text. It can say anything we like.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- main content end -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pet Shelter</title>
+  </head>
+  <body>
+    <!-- headers begin -->
+    <header class="d-flex column">
+      <div class="container main-header d-flex">
+        <div class="shelter d-flex">
+          <img class="heart" src="./icons/heart-light.png" alt="heart" />
+          <h1>Pet Shelter</h1>
+        </div>
+        <div class="navbar d-flex justify">
+          <h3><a href="#" class="no-underline">Find a Pet</a></h3>
+          <h3><a href="#" class="no-underline">About</a></h3>
+          <button class="donate-btn" onclick="hide(this)">Donate</button>
+        </div>
+      </div>
+      <div class="container secondary-header d-flex justify">
+        <div class="looking d-flex column">
+          <p class="white-text">I'm looking for a...</p>
+          <div>
+            <img class="icon" src="./icons/paw-light.png" alt="paw-print" />
+            <select
+              name="favorite-hero"
+              id="looking-for"
+              onchange="alertLookingFor(this)"
+            >
+              <option value="Any-Pet">Any Pet</option>
+              <option value="Cat">Cat</option>
+              <option value="Dog">Dog</option>
+            </select>
+          </div>
+        </div>
+        <div class="location">
+          <p class="white-text">in or near...</p>
+          <div>
+            <img class="icon" src="./icons/pin-light.png" alt="paw-print" />
+            <input type="text" name="search" id="zip-code" />
+          </div>
+        </div>
+        <div class="the-button">
+          <button class="btn friend-btn">Find your new best friend</button>
+        </div>
+      </div>
+    </header>
+    <!-- headers end -->
+    <!-- main content begin  -->
+    <div class="container d-flex gap">
+      <main class="d-flex column gap">
+        <div class="card card-light">
+          <div class="card-body">
+            <div class="navbar d-flex justify">
+              <div class="flex2">
+                <h3>
+                  <img
+                    class="image"
+                    src="./images/pepper.jpg"
+                    alt="Pepper the cat"
+                  />
+                </h3>
+              </div>
+              <div class="justify fixed-width">
+                <h2>Pepper</h2>
+                <p>
+                  Pepper is a slightly shy grey tabby, but she really loves
+                  showing her human affection.
+                </p>
+              </div>
+              <div class="align-end">
+                <span id="petPepper">3</span> pettings(s)
+                <button
+                  class="btn pet-btn"
+                  onclick="addingPettings('petPepper')"
+                >
+                  Pet Pepper
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-dark">
+          <div class="card-body">
+            <div class="navbar d-flex justify">
+              <h3>
+                <img
+                  class="image"
+                  src="./images/bruce.jpg"
+                  alt="Bruce the dog"
+                />
+              </h3>
+              <div class="justify">
+                <h2>Bruce</h2>
+                <p>
+                  Bruce is a loyal companion. He loves long walks and cold
+                  weather.
+                </p>
+              </div>
+              <div class="align-end">
+                <span id="petBruce">5</span> pettings(s)
+                <button
+                  class="btn pet-btn"
+                  onclick="addingPettings('petBruce')"
+                >
+                  Pet Bruce
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card card-light">
+          <div class="card-body">
+            <div class="navbar d-flex justify">
+              <h3>
+                <img
+                  class="image"
+                  src="./images/oscar.jpg"
+                  alt="Oscar the dog"
+                />
+              </h3>
+              <div class="justify">
+                <h2>Oscar</h2>
+                <p>
+                  Oscar is bright, energetic and friendly. He is looking for a
+                  good home.
+                </p>
+              </div>
+              <div class="align-end">
+                <span id="petOscar">8</span> pettings(s)
+                <button
+                  class="btn pet-btn"
+                  onclick="addingPettings('petOscar')"
+                >
+                  Pet Pepper
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- main content end  -->
+    <script src="./script.js"></script>
+  </body>
+</html>

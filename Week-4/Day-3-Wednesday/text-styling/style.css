@@ -1,0 +1,103 @@
+/* Max Gilhespy */
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* utility classes start */
+
+/* .container {
+  width: 100%;
+} */
+
+.d-flex {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+/* utility classes end */
+/* header classes start */
+
+/* header {
+  margin: 32px;
+} */
+
+.header {
+  background-color: black;
+  margin: 16px 16px 0 16px;
+  padding: 0.5rem 1.5rem;
+}
+
+/* h1 has margins automatically. Remove them if you don't want them affecting your layout. */
+h1 {
+  margin: 0;
+  font-size: 64px;
+}
+
+.white {
+  color: white;
+}
+
+/* h2 has margins automatically. Remove them if you don't want them affecting your layout. */
+h2 {
+  margin: 0;
+  font-size: 64px;
+}
+
+/* h3 has margins automatically. Remove them if you don't want them affecting your layout. */
+h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+} 
+
+.centered {
+  text-align: center;
+}
+
+.aqua {
+  color: #00ffff;
+}
+
+/* header classes end */
+/* main classes start */
+
+.main-block {
+  background-color: #663399;  
+  margin: 16px 16px 0 16px;
+  padding: 0.5rem 1.5rem;
+}
+
+/* main classes start */
+
+/* aside classes start */
+
+.aside-block {
+  background-color: #9fc5f8;  
+  margin: 16px 16px 0 16px;
+  padding: 0.5rem 1.5rem;
+}
+
+/* p has margins automatically. Remove them if you don't want them affecting your layout. */
+p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: right; /* Ensures the text inside the p is aligned to the right */
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline; /* Ensures the span element doesn't take up full width so that the mouse*/
+  /* cursor only becomes a pointer when we mouse over 'contact us'  */
+}
+
+/* aside classes end */

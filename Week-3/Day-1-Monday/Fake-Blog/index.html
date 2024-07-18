@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxG Fake Blog</title>
+    <meta name="description" content="This is a page for Percy the Cat. Follow the adventures of Percy the Cat through blog entries.">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Percy</a></li>
+            </ul>
+        </nav>
+        <h1>Percy the Cat</h1>
+    </header>
+    <main>
+        <img src="./images/percy-sleeping.jpg" alt="Percy the Cat" height="200">
+        <p>Welcome to Percy's page. Here, you can learn all about Percy the Cat.</p>
+
+        <h2>Blog Entries</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th style="width: 100px;">Date</th>
+                    <th style="width: 120px;">Title</th>
+                    <th>Entry</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-07-01</td>
+                    <td>A Lorem Day</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue quam, rhoncus non tincidunt a, rutrum a turpis. Aliquam sit amet sagittis sem. Pellentesque sapien dolor, rhoncus vitae pretium a, ultrices euismod ante. Mauris ornare lectus urna. Vivamus et rutrum nisi. Etiam ut aliquam mauris, a cursus leo. Vivamus libero neque, convallis nec nibh id, lacinia aliquam tellus. Maecenas sapien nunc, egestas id venenatis sit amet, efficitur sit amet libero. Proin dui magna, sollicitudin quis tempus ac, convallis ut ex. Duis placerat porttitor lectus.</td>
+                </tr>
+                <tr>
+                    <td>2024-07-05</td>
+                    <td>A Sed Todor Day</td>
+                    <td>Sed tortor turpis, interdum id placerat sit amet, suscipit in diam. Integer ac odio odio. Morbi porttitor ac lorem non auctor. Nunc suscipit nisi ultricies auctor ultrices. Duis consectetur tortor sed pretium accumsan. Phasellus ullamcorper, sapien id consectetur aliquet, mi lorem sodales ipsum, et bibendum nunc sapien sit amet nisi. Nunc mattis, lacus at accumsan eleifend, leo erat fermentum turpis, id pellentesque metus tellus ac ipsum. Etiam id pulvinar purus, ac ultricies libero. Nam tempus mollis aliquet. Vivamus ornare sed lorem a gravida. Maecenas sed mi vehicula, viverra sapien ut, tempor purus. Sed luctus purus sed risus iaculis facilisis. Cras consectetur massa a mollis lobortis. Etiam vel quam quis nunc pulvinar molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</td>
+                </tr>
+                <!-- Add more entries as needed -->
+            </tbody>
+        </table>
+
+        <h2>Survey</h2>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+            <div>
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback"></textarea>
+            </div>
+
+            <div>
+                <p>What treat should I feed Percy right now?</p>
+                <input type="checkbox" id="fish" name="food" value="fish">
+                <label for="fish">Fish</label><br>
+                <input type="checkbox" id="chicken" name="food" value="chicken">
+                <label for="chicken">Chicken</label><br>
+                <input type="checkbox" id="meat" name="food" value="meat">
+                <label for="meat">Meat</label><br>
+                <input type="checkbox" id="cheese" name="food" value="cheese">
+                <label for="cheese">Cheese</label><br>
+                <input type="checkbox" id="catnip" name="food" value="catnip">
+                <label for="catnip">Catnip</label>
+            </div>
+
+            <div>
+                <p>What do you think of Percy?</p>
+                <input type="radio" id="beautiful" name="opinion" value="beautiful">
+                <label for="beautiful">Beautiful</label><br>
+                <input type="radio" id="wonderful" name="opinion" value="wonderful">
+                <label for="wonderful">Wonderful</label><br>
+                <input type="radio" id="sublime" name="opinion" value="sublime">
+                <label for="sublime">Sublime</label>
+            </div>
+            <br />
+            <div>
+                <label for="rating">How do you rate Percy’s blog?</label>
+                <select id="rating" name="rating">
+                    <option value="amazing">Amazing!</option>
+                    <option value="brilliant">Brilliant!</option>
+                    <option value="theBest">The Best!</option>
+                    <option value="outstanding">Outstanding!</option>
+                </select>
+            </div>
+<br />
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 MaxG Fake Blog</p>
+    </footer>    
+</body>
+</html>

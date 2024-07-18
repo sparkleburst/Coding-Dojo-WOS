@@ -1,0 +1,187 @@
+/* Max Gilhespy */
+
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+html {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* utility classes start */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.gap {    
+  gap: 2rem;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-self {
+  align-self: flex-start;
+}
+
+.larger-text {
+  font-size: 28px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+/* utility classes end */
+
+/* header classes start */
+
+header {
+  background-color: #119b9d;
+  margin-bottom: 2.5rem;
+}
+
+.main-header {
+  padding-top: 1rem;
+}
+
+.secondary-header {
+  padding: 0.5rem 1rem;
+}
+
+.shelter {
+  flex: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: black;
+}
+
+.heart {
+  padding-bottom: 10px;
+  padding-right: 16px;
+}
+
+.navbar {
+  flex: 1;
+}
+
+.donate-btn {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #9900ff;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.btn {
+  border: 4px solid black;
+  box-shadow: 4px 4px black;
+}
+
+.friend-btn {
+  background-color: #643398;
+  color: white;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.white-text {
+  color: white;
+}
+
+.looking {
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+}
+
+select {
+  border: 2px solid black;
+}
+
+.location {
+  margin: 0;
+}
+
+/* header classes end*/
+
+/* card classes start */
+
+.card {
+  width: 800px;
+  border-radius: 20px;
+}
+
+.card-light {
+  background-color: #eeeeee;
+}
+
+.card-dark {
+  background-color: #dddddd;
+}
+
+.card-body {
+  padding: 2rem 1rem 1rem;
+}
+
+/* card classes end */
+
+/* main classes start */
+
+h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  color: black;
+}
+
+.larger-text {
+  font-size: 28px;
+}
+
+.image {
+  width: 80px;
+}
+
+.pet-btn {
+  background-color: #17cfd1;
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+
+.fixed-width {
+  width: 600px;
+}
+
+/* .align-end {
+  align-self: flex-end;
+} */
+
+/* main classes end */
