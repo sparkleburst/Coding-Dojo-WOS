@@ -1,0 +1,30 @@
+<!-- Max Gilhespy -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pacman Demo</title>
+  </head>  
+  <body>
+    <div id="container">
+      <!-- create the world -->
+      <div id="world"></div>
+      <!-- place pacman in the world-->
+      <div id="pacman"></div>
+      <!-- place cherries in the world -->
+      <div id="cherry"></div>
+      <!-- place a scoreboard in the world -->
+      <div id="score">0</div>
+    </div>
+
+    <!-- Interesting note. If you have <div class="whatever"></div> <div class="whatever"></div> 
+    written in or fed to html via javascript with a space between the closing div and the next openeing div then html will put a space between whatever the things are that is supposed to be in the <div> output. So don't have a space unless you intend for one to be there. Make sure it's written as or fed as <div class="whatever"></div><div class="whatever"></div> without any space between. -->
+
+    <!-- To take care of the vertical spaces I had to include vertiacl vertical-align: top; -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
