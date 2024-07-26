@@ -1,0 +1,15 @@
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.exe
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.deps.json
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.runtimeconfig.json
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\bin\Debug\net6.0\GameDeveloperII.pdb
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.csproj.AssemblyReference.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.AssemblyInfoInputs.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.AssemblyInfo.cs
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.csproj.CoreCompileInputs.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\refint\GameDeveloperII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.pdb
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\GameDeveloperII.genruntimeconfig.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-4-Thursday\GameDeveloperII\obj\Debug\net6.0\ref\GameDeveloperII.dll

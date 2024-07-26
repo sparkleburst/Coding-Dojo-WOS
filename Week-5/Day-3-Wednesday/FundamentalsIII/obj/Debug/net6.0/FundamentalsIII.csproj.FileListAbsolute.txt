@@ -1,0 +1,30 @@
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.exe
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.deps.json
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.runtimeconfig.json
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.dll
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.pdb
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.csproj.AssemblyReference.cache
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.AssemblyInfoInputs.cache
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.AssemblyInfo.cs
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.csproj.CoreCompileInputs.cache
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.dll
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\refint\FundamentalsIII.dll
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.pdb
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.genruntimeconfig.cache
+C:\Users\Lyra\Desktop\Desktop\MomCodingDojo\CodingDojoWOS\Week-5\Day 3 Wednesday\FundamentalsIII\obj\Debug\net6.0\ref\FundamentalsIII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.exe
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.deps.json
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.runtimeconfig.json
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\bin\Debug\net6.0\FundamentalsIII.pdb
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.csproj.AssemblyReference.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.AssemblyInfoInputs.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.AssemblyInfo.cs
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.csproj.CoreCompileInputs.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\refint\FundamentalsIII.dll
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.pdb
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\FundamentalsIII.genruntimeconfig.cache
+C:\Users\maxan\OneDrive\Documents\CodingDojoWOS\Week-5\Day-3-Wednesday\FundamentalsIII\obj\Debug\net6.0\ref\FundamentalsIII.dll
