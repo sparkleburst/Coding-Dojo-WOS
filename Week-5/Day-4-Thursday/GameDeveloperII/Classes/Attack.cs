@@ -6,7 +6,6 @@ public class Attack
 {
     // properties
     public string Name { get; set; }
-
     public int DamageAmount { get; set; }
 
     // constructor to initialize properties
@@ -15,10 +14,4 @@ public class Attack
         Name = name;
         DamageAmount = damageAmount;
     }
-        
-    public override string ToString()
-    {
-        return $"{Name} (Damage: {DamageAmount})";
-    }
-
 }
