@@ -1,0 +1,84 @@
+/* Max Gilhespy */
+
+/* start font styling and effects */
+
+/* apply balsamiq sans to the main content */
+body {
+  font-family: "Balsamiq Sans", sans-serif;
+  background-color: #f0eeee; /* Darker grey background */
+}
+
+/* apply edu au vic wa nt hand to the navigation bar */
+.navbar {
+  font-family: "Edu AU VIC WA NT Hand", "Balsamiq Sans", sans-serif;
+  padding: 0.75rem 1rem; /* increase padding for a thicker navbar */
+}
+
+/* ensure navbar links are larger */
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+/* style for the navbar brand */
+.navbar-brand {
+  font-size: 2rem; /* increase font size */
+  font-weight: bold; /* make the text bold */
+}
+
+/* general transition effect for navbar links and brand */
+.navbar-brand,
+.nav-link {
+  transition: transform 0.3s ease; /* smooth transition for hover effect */
+}
+
+/* hover effect for navbar links */
+.nav-link:hover {
+  transform: scale(1.1); /* enlarge link on hover */
+}
+
+/* override hover effect for the portfolio brand */
+.navbar-brand:hover {
+  transform: none; /* no scaling for the portfolio brand */
+}
+
+/* start font styling and effects */
+
+/* start scroll bar for projects */
+
+.scroll-bg {
+  background: #92206a;
+  width: 100%;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.scroll-div {
+  width: 100%;
+  background: #92206a;
+  height: 700px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  color: wheat;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+/* end scroll bar for projects */
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+/* start flex box */

@@ -1,0 +1,131 @@
+/* Max Gilhespy */
+
+/* start font styling and effects */
+
+/* apply balsamiq sans to the main content */
+body {
+    font-family: "Balsamiq Sans", sans-serif;
+    background-color: #f0eeee; /* Darker grey background */
+  }
+  
+  /* apply edu au vic wa nt hand to the navigation bar */
+  .navbar {
+    font-family: "Edu AU VIC WA NT Hand", "Balsamiq Sans", sans-serif;
+    padding: 0.75rem 1rem; /* increase padding for a thicker navbar */
+  }
+  
+  /* ensure navbar links are larger */
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* style for the navbar brand */
+  .navbar-brand {
+    font-size: 2rem; /* increase font size */
+    font-weight: bold; /* make the text bold */
+  }
+  
+  /* general transition effect for navbar links and brand */
+  .navbar-brand, .nav-link {
+    transition: transform 0.3s ease; /* smooth transition for hover effect */
+  }
+  
+  /* hover effect for navbar links */
+  .nav-link:hover {
+    transform: scale(1.1); /* enlarge link on hover */
+  }
+  
+  /* override hover effect for the portfolio brand */
+  .navbar-brand:hover {
+    transform: none; /* no scaling for the portfolio brand */
+  }
+  
+  /* ensure consistent font styling for card titles and text */
+  .card-title, .card-text {
+    font-family: "Edu AU VIC WA NT Hand", "Balsamiq Sans", sans-serif;
+  }
+  
+  /* end font styling and effects */
+  
+  /* start card design */
+  
+  /* basic card styling */
+  .card {
+    display: flex;
+    flex-direction: column; /* stack card content vertically */
+    align-items: center; /* center content horizontally */
+    text-align: center; /* center text */
+    margin: 1rem; /* space around the card */
+    padding-top: 30px; /* space at the top of the card */
+  }
+  
+  /* adjust the maximum width of card containers */
+  .card-container {
+    max-width: 10px; /* adjust as needed */
+  }
+  
+  /* custom card styling */
+  .card-custom {
+    border: 1px solid #f7d5eb; /* border around the card */
+    border-radius: 3%; /* slightly rounded corners */
+    margin-bottom: 1rem; /* space below the card */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* card takes full height of column */
+  }
+  
+  /* card body styling */
+  .card-body {
+    flex: 1; /* allow card body to expand */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* align content to the top */
+    padding: 0px 15px; /* padding inside card body */
+  }
+  
+  /* remove default margin for paragraphs in card body */
+  .card-body p {
+    margin: 0; 
+  }
+  
+  /* margin adjustments for card title and text */
+  .card-body .card-title {
+    margin-bottom: 10px; /* space below title */
+    margin-top: 20px; /* space above title */
+  }
+  
+  .card-body .card-text {
+    margin-bottom: 0px; /* space below text */
+    margin-top: 0; /* space above text */
+  }
+  
+  /* styling for card text */
+  .card-text {
+    white-space: nowrap; /* keep text on a single line */
+    margin-bottom: 10px; /* space below text */
+  }
+  
+  /* styling for text in the right card */
+  .right-text {
+    font-size: 1.25rem; /* adjust text size */
+    line-height: 1.8; /* line height for readability */
+    margin-top: 10px; /* space above text */
+  }
+  
+  /* styling for images in the card */
+  .card-img-top {
+    border: 5px solid #4f0255; /* border around image */
+    border-radius: 3%; /* rounded corners for border */
+    max-width: 75%; /* limit image width */
+    max-height: auto; /* maintain aspect ratio */
+  }
+  
+  /* center the image container */
+  .card-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* end card design */
+

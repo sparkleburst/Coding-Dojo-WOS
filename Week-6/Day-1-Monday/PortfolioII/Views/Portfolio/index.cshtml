@@ -1,0 +1,94 @@
+@* Max Gilhespy *@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @* bootstrap CSS *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    @* google font *@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    @* custom css *@
+    <link href="~/css/index-style.css" rel="stylesheet">
+    <title>PortfolioII</title>
+</head>
+
+<body>
+    @* nav bar start *@
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-sm">
+            <span class="navbar-brand portfolio-brand">Portfolio</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    @* <a class="nav-link disabled" aria-disabled="true">Disabled</a> *@
+                </div>
+            </div>
+        </div>
+    </nav>
+    @* nav bar end *@
+
+    @* main content start *@
+
+    <div class="container text-center mt-4">
+        <h1>About Me</h1>
+        <div class="row d-flex">
+            <!-- card with image on the left -->
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card card-custom h-100">
+                    <img src="~/images/MaxRedShirt.jpg" class="card-img-top img-fluid" alt="This is Max">
+                    <div class="card-body">
+                        <h5 class="card-title">Max Gilhespy</h5>
+                        <p class="card-text">Loves organized code!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card with text on the right -->
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card card-custom h-100">
+                    <div class="card-body">
+                        <p class="right-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus aliquam laoreet.
+                            Proin
+                            egestas sit amet augue ut mattis. Curabitur fermentum placerat massa non laoreet. Nullam
+                            pharetra,
+                            diam
+                            sed feugiat mollis, ex ex faucibus sem, sollicitudin facilisis purus odio et ante.
+                            Vestibulum
+                            viverra
+                            dapibus ultricies. Etiam egestas ut est sit amet sodales. Donec sit amet ipsum ipsum.
+                            Praesent a
+                            orci
+                            finibus, suscipit nunc ac, ullamcorper turpis. Donec dapibus ante arcu, a vulputate ipsum
+                            tempus a.
+                            Pellentesque ultrices ultrices iaculis. Phasellus dictum ipsum vitae neque aliquet posuere.
+                            In sed
+                            velit
+                            erat. Mauris non purus justo. Donec non nulla laoreet, finibus lacus sed, vulputate dui.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* main content end *@
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+7HAuoRl4p5Y4r1W1KQDdHUsY1zqE"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

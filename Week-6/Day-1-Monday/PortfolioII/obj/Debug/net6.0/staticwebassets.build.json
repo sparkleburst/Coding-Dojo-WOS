@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "uI1PxqE2aJ76vbWU4BeEUtwqXDg/D9v1BjNHYSrY9Gg=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII\\wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\css\\contact.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
+    },
+    {
+      "Identity": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\css\\projects-style.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/projects-style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\projects-style.css"
+    },
+    {
+      "Identity": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\css\\style.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\images\\MaxRedShirt.jpg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxan\\OneDrive\\Documents\\CodingDojoWOS\\Week-6\\Day-1-Monday\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/MaxRedShirt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MaxRedShirt.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+"get": {
+        "prefix": "get",
+        "body": "[HttpGet(\"$1\")]",
+        "description": "dotnet get route annotation"
+    },
+
+week 6 day 1 around 1:34:00
+
+our recursive code for morning algorithm
+
+function sumArr(nums, i = nums.length) {
+  if (i <= 0) {
+    return 0;
+  }
+  if (nums.length === 1) {
+    return nums[0];
+  }
+  return sumArr(nums, i - 1) + nums[i - 1];
+}
